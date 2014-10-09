@@ -38,12 +38,12 @@
                       })
 
 (def example-service-2 {
-                        :id "jlt-insight"
-                        :name "JLT Insight"
+                        :id "insight"
+                        :name "Insight"
                         :description "Search engine portal and crawler infrastructure"
                         :status :error
                         :events []
-                        :metrics { :type "graphite" :prefix "jlt-insight" }
+                        :metrics { :type "graphite" :prefix "insight" }
                         :logs []
                         :components []
                         })
